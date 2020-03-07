@@ -33,9 +33,9 @@ def add_item (title, amount, quantity =1 )
     items << title
 end
 
-# self.last_transaction_amount = amount * quantity
+self.last_transaction_amount = amount * quantity
 
-# end 
+end 
 
 def apply_discount
   if discount != 0
