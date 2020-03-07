@@ -25,23 +25,23 @@ def discount
   @discount
 end
 
-def items= (list)
-@items = list
-end
+# def items= (list)
+# @items = list
+# end
 
-def items
-  @items
-end
+# def items
+#   @items
+# end
 
-def last_transaction_amount= (amount)
-  @last_transaction_amount = amount
+# def last_transaction_amount= (amount)
+#   @last_transaction_amount = amount
   
-end
+# end
 
-def last_transaction_amount
-  @last_transaction_amount
+# def last_transaction_amount
+#   @last_transaction_amount
 
-end
+# end
   
 
 def add_item (title, amount, quantity =1 )
